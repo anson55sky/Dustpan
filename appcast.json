@@ -1,0 +1,8 @@
+{
+  "version": "0.15.6",
+  "date": "2026-09-22",
+  "sha256": "3738fd021f8172a2fed3ba169185028d2738e39c06703290d6c9804085984931",
+  "download": "https://github.com/anson55sky/Dustpan-Releases/releases/download/v0.15.6/Dustpan-0.15.6.dmg",
+  "notes": "新增强制更新机制：启动时读取公开的版本清单，需要强制时弹出不可关闭的更新窗，并自动下载安装包、校验 SHA-256 后再打开。补齐发布链路：版本清单（appcast.json）与上传工具（tools/mkappcast.py、tools/upload-release.sh）。修复三个缺陷：① 校验不符时同一个安装包被重复下载 6~8 次；② 判定为坏包后又被写回下载目录；③ 更新窗在下载完成后主线程无响应。",
+  "force": false
+}
