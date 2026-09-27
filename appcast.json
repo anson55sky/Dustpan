@@ -1,8 +1,8 @@
 {
-  "version": "0.15.11",
-  "date": "2026-09-23",
-  "sha256": "dd9c886c562d3487943176d2acd821cd6fcdfb985d666c9d1a392758b5f5d9bc",
-  "download": "https://github.com/anson55sky/Dustpan/releases/download/v0.15.11/Dustpan-0.15.11.dmg",
-  "notes": "更新渠道迁移：下载页改用新地址（GitHub 仓库改名为 Dustpan），应用内的更新检查地址同步指向新地址。\n\n- 旧地址会自动重定向，从 0.15.6 及更早版本升级不受影响；\n- 升级到本版本后，更新检查直接走新地址，不再依赖重定向；\n- 功能与 0.15.10 完全一致，本次仅包含更新渠道迁移与公开下载页上线。",
+  "version": "0.15.12",
+  "date": "2026-09-27",
+  "sha256": "ac4b4309cc3dd3db6d994b093523e572ffc14258d8b06bcab8339ac5a93d8637",
+  "download": "https://github.com/anson55sky/Dustpan/releases/download/v0.15.12/Dustpan-0.15.12.dmg",
+  "notes": "修复：卸载后顶部提示残影；部分应用（/Applications 下）无法卸载的问题。新增：软件页搜索框，按名称或 Bundle ID 实时过滤。卸载失败时保留列表并如实提示原因，不再误判成功。",
   "force": false
 }
