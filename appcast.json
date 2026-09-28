@@ -1,8 +1,8 @@
 {
-  "version": "0.15.12",
-  "date": "2026-09-27",
-  "sha256": "ac4b4309cc3dd3db6d994b093523e572ffc14258d8b06bcab8339ac5a93d8637",
-  "download": "https://github.com/anson55sky/Dustpan/releases/download/v0.15.12/Dustpan-0.15.12.dmg",
-  "notes": "修复：卸载后顶部提示残影；部分应用（/Applications 下）无法卸载的问题。新增：软件页搜索框，按名称或 Bundle ID 实时过滤。卸载失败时保留列表并如实提示原因，不再误判成功。",
+  "version": "0.15.13",
+  "date": "2026-09-28",
+  "sha256": "64059654610350b658d7e3f515fc54619a1455d451553f60cbd2399a9f3d4a67",
+  "download": "https://github.com/anson55sky/Dustpan/releases/download/v0.15.13/Dustpan-0.15.13.dmg",
+  "notes": "键盘保洁锁定期间不再黑屏（顶部透明解锁浮钮）；修复隐藏桌面图标写反、清空剪贴板点名第三方便贴板历史。",
   "force": false
 }
